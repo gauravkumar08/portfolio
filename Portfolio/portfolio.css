@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-image: url('ss.jpg');
+} */
+main{
+    height: 729px;
+}
+
+#Back1{
+    /* background-image: url("New Image.jpg"); */
+    position: -webkit-sticky;
+    position: fixed;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 75%;
+    margin-right: 250px;
+    position: fixed;
+}
+#image{
+    background-image: url('New\ Image\ \(3\).jpg');
+    height: 320px;
+    width: 320px;
+    background-color: blue;
+    margin-top: -560px;
+    margin-left: 1100px;
+    border-radius: 4px;
+    border: none;
+}
+#image:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#about{
+    background-image: url('ss.jpg');
+    height: 728.5px;
+    /* background-size: cover; */
+    /* object-fit: cover; */
+}
+#navbar
+{
+    color: white;
+    
+    height: 50px;
+    padding-top: 20px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 100px;
+    text-align: bottom;
+    justify-content: center;
+    margin-top: 1005px;
+    padding-top: 1000px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(255, 174, 0);
+}
+
+#resume{
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#resume:hover{
+    -ms-transform: scale(1.08); /* IE 9 */
+    -webkit-transform: scale(1.08); /* Safari 3-8 */
+    transform: scale(1.08); 
+}
+/* #me{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px
+} */
+.about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 32px;
+    color: #c9c9c9;
+}
+#hi{
+    margin-left: 40px;
+}
+#i{
+    margin-left: 40px;
+}
+#q{
+    margin-left: 40px;
+}
+p{
+    margin-left: 160px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: antiquewhite;
+    margin: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 120px;
+}
+
+span{
+    color: rgb(255, 174, 0);
+}
+
+#p1{
+    margin-left: 250px;
+    align-items: center;
+    padding-top: 20px;
+}
+#education{
+    height: 850px;
+    width: 100%;
+    margin-bottom: 230px;
+    background-color: rgb(2, 2, 44);
+}
+#box1{
+    height: 460px;
+    width: 65%;
+    margin-top: 32px;
+    padding-top: 230px;
+    padding-left: 150px;
+    margin-left: 190px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 8px;
+}
+#edu{
+    font-size: 1.50rem;
+    color: rgb(218, 184, 36);
+    margin-bottom: 340px;
+}
+
+i{
+    text-align: center;
+    margin-left: 650px;
+    text-align: center;
+    font-size: 1.80rem;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+
+#srm{
+    height: 190px;
+    width: 104%;
+    margin-top: -180px;
+    margin-left: -95px;
+    background-color: rgb(147, 205, 255);
+    border-radius: 8px;
+}
+#cv{
+    height: 190px;
+    width: 104%;
+    margin-top: 10px;
+    margin-left: -95px;
+    background-color: rgb(147, 205, 255);
+    border-radius: 8px;
+}
+#rk{
+    height: 190px;
+    width: 104%;
+    margin-top: 10px;
+    margin-left: -95px;
+    background-color: rgb(147, 205, 255);
+    border-radius: 8px;
+}
+#pic
+{
+    height: 190px;
+    width: 253px;
+    margin-left: 0.1px;
+    background-image:url('srm\(1\).jpg');
+    /* background-color: aqua; */
+    /* border-radius: 8px; */
+    display: flex;
+    object-fit: cover;
+    background-size: cover;
+}
+#pic1{
+    height: 190px;
+    width: 253px;
+    margin-left: 0.1px;
+    background-image: url('cv4.jpg');
+    /* border-radius: 8px; */
+}
+#pic2{
+    height: 190px;
+    width: 253px;
+    margin-left: 0.1px;
+    background-image: url('rk1.jpg');
+    /* border-radius: 8px; */
+}
+.uni{
+    margin-top: -150px;
+    margin-left: 290px;
+    font-size: 1.80rem;
+    color: rgb(2, 2, 77);
+    font-weight: 600;
+}
+.bachelor{
+    margin-left: 290px;
+    color: black;
+}
+.year{
+    background-color: rgb(225, 189, 9);
+    border-radius: 4px;
+    height: 5vh;
+    width: 19.2%;
+    border: none;
+    margin-left: 290px;
+    margin-top: -20px;
+}
+/* .year:hover{
+    background-color: none;
+} */
+#e{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.00rem;
+    color: white
+}
+#skill{
+    margin-top: -230px;
+    height: 530px;
+    width: 100%;
+    margin-bottom: 230px;
+    background-image: linear-gradient(to top, rgb(176, 59, 219) , rgb(102, 171, 220));
+}
+#s{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.00rem;
+    color: rgb(255, 255, 255);
+}
+#box2{
+    height: 140px;
+    width: 63%;
+    margin-top: 32px;
+    padding-top: 230px;
+    padding-left: 150px;
+    margin-left: 190px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 8px;
+}
+#t{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    margin-top: -170px;
+    margin-left: -100px;
+    transition: transform .0.5s; 
+    background-image: url('html1\ \(2\).jpg');
+    border-radius: 8px;
+    display: flex;
+}
+#t:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#u{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    margin-top: -100px;
+    margin-left: 70px;
+    background-image: url('css\ \(3\).png');
+    border-radius: 8px;
+}
+#u:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#v{
+    height: 100px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-left: 240px;
+    background-image: url('js\ \(1\)\ \(1\).png'); 
+    border-radius: 8px;
+}
+#v:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#w{
+    height: 100px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-left: 410px; 
+    background-image: url('java\ \(1\)\ \(1\).png');
+    border-radius: 8px;
+}
+#w:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#x{
+    height: 100px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-left: 590px; 
+    background-image: url('c\ \(1\)\ \(1\).png');
+    border-radius: 8px;
+}
+#x:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#y{
+    height: 100px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-left: 770px; 
+    background-image: url('c++\ \(1\)\ \(1\).png');
+    border-radius: 8px;
+}
+#y:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#g{
+    height: 100px;
+    width: 130px;
+    background-color: #000000;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-image: url('mysql\ \(2\)\ \(1\).png');
+}
+#g:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#a{
+    height: 100px;
+    width: 130px;
+    background-color: #000000;
+    background-image: url('tableau\ \(1\)\ \(1\).jpeg');
+    margin-top: -100px;
+    margin-left: 70px;
+    border-radius: 8px;
+} 
+#a:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#b{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    background-image: url('excel\ \(1\)\ \(1\).jpeg');
+    margin-top: -100px;
+    margin-left: 240px;
+    border-radius: 8px;
+}
+#b:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#projects{
+    background-color: rgb(8, 8, 25);
+    height: 850px;
+    width: 100%;
+    margin-top: -240px;
+}
+#p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.00rem;
+    color: rgb(255, 255, 255);
+}
+#database{
+    height: 350px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: rgb(255, 225, 0);
+    border: none;
+    border-radius: 4px;
+}
+#database:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#image3{
+    height: 290px;
+    width: 450px;
+    background-color: aquamarine;
+    background-image: url('super.jpg');
+}
+#super{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 1.30rem;
+    font-weight: 900;
+    color: black;
+}
+#super1{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 1.30rem;
+    font-weight: 900;
+    color: black;
+    margin-left: 140px;
+}
+#database1{
+    height: 350px;
+    width: 450px;
+    margin-left: 530px;
+    margin-top: -370px;
+    background-color:rgb(255, 225, 0); 
+    cursor: pointer;
+    border-radius: 4px;
+}
+#database1:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#image4{
+    height: 290px;
+    width: 450px;
+    background-color: aquamarine;
+    background-image: url('clone.jpg');
+}
+
+#database2{
+    height: 350px;
+    width: 450px;
+    margin-left: 1020px;
+    margin-top: -367px;
+    background-color:rgb(255, 225, 0); 
+    border-radius: 4px;
+    border: none;
+}
+#database2:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#image5{
+    height: 290px;
+    width: 450px;
+    background-color: aquamarine;
+    background-image: url('webapp.jpg');
+}
+#super2{
+    margin-left: -40px;
+    margin-top: 10px;
+    /* color: blue; */
+    font-size: 1.30rem;
+    font-weight: 900;
+    color: black;
+    margin-left: 140px;
+}
+#database3{
+    height: 350px;
+    width: 580px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color:rgb(255, 225, 0); 
+    border-radius: 4px;
+    border: none;
+}
+#database3:hover{
+    -ms-transform: scale(1.03); /* IE 9 */
+    -webkit-transform: scale(1.03); /* Safari 3-8 */
+    transform: scale(1.03); 
+}
+#image6{
+    height: 300px;
+    width: 580px;
+    background-color: aquamarine;
+    background-image: url('Hospital-Management-System\ \(2\).png');
+}
+
+#super3{
+    margin-top: 6px;
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 1.30rem;
+    color: black;
+}
+#touch{
+    height: 750px;
+    width: 100%;
+    margin-top: -20px;
+    background-color: rgb(210, 244, 254);
+}
+#con{
+    height: 80vh;
+    width: 65%;
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+#contact{
+    height: 510px;
+    width: 510px;
+    margin-top: -10px;
+    background-image: url('call1\ \(1\).jpg');
+}
+#details{
+    height: 510px;
+    width: 510px;
+    background-color: #000000;
+}
+input[type="text"]
+{
+    margin-left: 520px;
+    margin-top: 80px;
+    height: 7vh;
+    width: 75%;
+    border-radius: 6px;
+    border: 0.5px solid rgb(53, 53, 53);
+    line-height: -400px;
+}
+#email{
+    height: 7vh;
+    width: 75%;
+    border-radius: 6px;
+    margin-left: 520px;
+    margin-top: 40px;
+    border: 0.5px solid rgb(53, 53, 53);
+}
+#number{
+    height: 7vh;
+    width: 75%;
+    border-radius: 6px;
+    margin-left: 520px;
+    margin-top: 40px;
+    border: 0.5px solid rgb(53, 53, 53);
+}
+#message{
+    height: 18vh;
+    width: 75%;
+    margin-top:40px;
+}
+#submit{
+    height: 5vh;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 640px;
+    cursor: pointer;
+    background-color: rgb(210, 180, 12);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.30rem;
+}
+#submit:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9); 
+}
+::placeholder{
+    padding-left: 120px;
+    color: rgb(6, 6, 82);
+}
+#get{
+    /* margin-left: 750px; */
+    margin-top: 20px;
+    font-size: 2.00rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#dis{
+    color: #000000;
+}
+footer{
+    /* margin-top: 15px; */
+    height: 350px;
+    background-color: #222f3d;
+    width: 100%;
+    margin-top: -20px;
+
+}
+.panel{
+    background-color: #222f3d;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+#quick{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#educ{
+    margin-left: 300px;
+    font-size: 1.1rem;
+}
+#educ:hover{
+    color: rgb(255,213,0);
+}
+#ski{
+    font-size: 1.1rem;
+    margin-left: 300px;
+}
+#ski:hover{
+    color: rgb(255,213,0)
+}
+#pro{
+    margin-left: 300px;
+    font-size: 1.1rem;
+}
+#pro:hover{
+    color: rgb(255,213,0);
+}
+#to{
+    margin-left: 300px;
+    font-size: 1.1rem;
+}
+#to:hover{
+    color: rgb(255,213,0)
+}
+#pho{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: rgb(255, 204, 0);
+    margin-left: 120px;
+    margin-top: 30px;
+    cursor: none;
+}
+#num{
+    font-size: 0.98rem;
+    margin-left: 5px;
+    font-weight: 2;
+    cursor: none;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#ema{
+    font-size: 1.2rem;
+    color: rgb(255, 204, 0);
+    margin-left: 120px;
+    cursor: none;
+}
+#mail{
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: none;
+}
+#loc{
+    font-size: 1.2rem;
+    color: rgb(255,204,0);
+    margin-left: 120px;
+    cursor: none;
+}
+#jam{
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 2;
+    color: #ffffff;
+    cursor: none;
+    margin-left: 10px;
+}
+#lin{
+    margin-left: 175px;
+}
+#git{
+    margin-left: -80px;
+}
+#m{
+    margin-left: -80px;
+}
+#conta{
+    margin-left: 120px;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+hr{
+    margin-top: 150px;
+    width: 90%;
+    margin-left: 70px;
+    background-color: #11181f;
+}
+#cre{
+    margin-left: 640px;
+    color: #ffffff;
+}
+/* #by{
+    color: #ffffff;
+    margin-left: 705px;
+    margin-top: -21px;
+} */
+#nam{
+    margin-left: 6px;
+    color: rgb(255, 204, 0);
+    margin-top: -0px ;
+
+}
+#rig{
+    margin-top: -20px;
+    margin-left: 853px;
+    color: white;
+}
