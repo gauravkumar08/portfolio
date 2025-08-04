@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaurav Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- HEADER WITH IMAGE -->
+  <header class="main-header">
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="header-content">
+    <div class="intro">
+      <h1>Hi, I'm Gaurav Kumar</h1>
+      <p>Software Developer | Cloud Enthusiast | Analyst</p>
+    </div>
+    <div class="profile-pic">
+      <img src="Gaurav Kumar Photo.jpg" alt="Gaurav Kumar" />
+    </div>
+  </div>
+</header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate software developer with expertise in Node.js, MongoDB, React, and cloud platforms like Microsoft Azure. I enjoy building scalable, high-performance web applications and solving real-world problems through clean, efficient code. With a strong foundation in both frontend and backend development, I thrive on turning ideas into impactful digital solutions.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-box">
+        <h3>Job & Networking Portal</h3>
+        <p>AI-powered job board with resume analysis, wallet connect, and recruiter dashboard.</p>
+        <a href="https://github.com/gauravkumar08/Job-Portal" target="_blank">
+          <button class="view-code-btn">View Code</button>
+        </a>
+      </div>
+      <div class="project-box">
+        <h3>Task Management System</h3>
+        <p>Feature-rich task manager with priority board, user auth, and responsive UI.</p>
+        <a href="https://github.com/gauravkumar08/Task-Management-System" target="_blank">
+          <button class="view-code-btn">View Code</button>
+        </a>
+      </div>
+      <div class="project-box">
+        <h3>Quiz Genius</h3>
+        <p>Secure quiz app with login, timers, webcam checks, and instant feedback for fair learning. </p>
+        <a href="https://github.com/gauravkumar08/QuizGenius" target="_blank">
+          <button class="view-code-btn">View Code</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <span class="skill">Node.js</span>
+    <span class="skill">React</span>
+    <span class="skill">MongoDB</span>
+    <span class="skill">Express.js</span>
+    <span class="skill">SQL</span>
+    <span class="skill">C++</span>
+    <span class="skill">Azure</span>
+    <span class="skill">Docker</span>
+    <span class="skill">Git</span>
+    <span class="skill">JavaScript</span>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="statusMsg"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Gaurav Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
